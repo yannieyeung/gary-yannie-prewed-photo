@@ -166,13 +166,13 @@
 
             // Load the HTML4 version if there's not CSS transform
 
-            // yepnope({
-            //     test: Modernizr.csstransforms,
-            //     yep: ["/turn.js"],
-            //     nope: ["/turn.html4.min.js"],
-            //     both: ["/style.css"],
-            //     complete: loadApp,
-            // });
+            yepnope({
+                test: Modernizr.csstransforms,
+                yep: ["/turn.js"],
+                nope: ["/turn.html4.min.js"],
+                both: ["/style.css"],
+                complete: loadApp,
+            });
         </script>
     </body>
 </html>
