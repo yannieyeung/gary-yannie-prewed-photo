@@ -12,6 +12,7 @@
         <script type="text/javascript" src="/jquery.min.1.7.js"></script>
         <script type="text/javascript" src="/modernizr.2.5.3.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
 
     <body>
@@ -165,13 +166,13 @@
 
             // Load the HTML4 version if there's not CSS transform
 
-            yepnope({
-                test: Modernizr.csstransforms,
-                yep: ["/turn.js"],
-                nope: ["/turn.html4.min.js"],
-                both: ["/style.css"],
-                complete: loadApp,
-            });
+            // yepnope({
+            //     test: Modernizr.csstransforms,
+            //     yep: ["/turn.js"],
+            //     nope: ["/turn.html4.min.js"],
+            //     both: ["/style.css"],
+            //     complete: loadApp,
+            // });
         </script>
     </body>
 </html>
