@@ -29,6 +29,10 @@ body {
 	background-color: #fcfcfc;
 	margin: 0;
 	padding: 0;
+	background-image: url(background2.jpg);
+
+	background-size: cover;
+	background-position: center;
 }
 
 .flipbook-viewport {
@@ -98,7 +102,7 @@ body {
 	background-position: center center;
 }
 
-.page .odd {
+/* .page .odd {
 	margin: 0auto;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -106,5 +110,5 @@ body {
 }
 
 .cover {
-	background-color: aquamarine;
+	background-color: aquamarine; */
 }
